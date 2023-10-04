@@ -8,30 +8,59 @@
     <link rel="stylesheet" href="styles.css"> <!-- Add your CSS file link here -->
     <!-- Add any other meta tags, scripts, or stylesheets your page needs -->
 </head>
-<body>
-    <section class="why-choose-us-section d-flex align-items-center">
-        <div class="container">
-            <div class="section-title text-center">
-                <h2>Why Choose Us</h2>
-            </div>
-            <!-- Rest of your content as previously provided -->
-        </div>
-    </section>
-    <!-- why-choose-us-section end -->
 
-    <!-- Video Modal -->
-    <div class="modal fade" id="videoModal">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <div class="modal-body">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/WqUaM-ZueXU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <section class="why-choose-us-section d-flex align-items-center">
+    <div class="container">
+        <div class="section-title text-center">
+            <h2>Why Choose Us</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                <div class="content-box">
+                    <div class="feature-item">
+                        <div class="icon-box">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>Experienced Team</h3>
+                            <p>Our team of experts is highly experienced and dedicated to delivering top-quality services.</p>
+                            <a href="#"><i class="fas fa-arrow-right"></i> Learn More</a>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="icon-box">
+                            <i class="fas fa-box"></i>
+                        </div>
+                        <div class="feature-content text-right">
+                            <h3>Quality Products</h3>
+                            <p>We offer a wide range of high-quality products to meet your needs and exceed your expectations.</p>
+                            <a href="#">Learn More <i class="fas fa-arrow-left"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 video-column">
+                <div class="video-inner wow slideInRight" data-wow-delay="00ms" data-wow-duration="1500ms" style="background-image: url(https://i.ibb.co/Lz7ZrL1/video-bg.jpg);">
+                    <div class="pattern-layer" style="background-image: url(https://i.ibb.co/1qq5bKr/cube-shapes.png);"></div>
+                    <div class="video-btn">
+                        <div class="btn-bg rotate-me" style="background-image: url(https://i.ibb.co/kKmvKRY/btn-icon-bg.png);"></div>
+                        <a href="#" class="lightbox-image" data-toggle="modal" data-target="#videoModal"><i class="fas fa-play"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+</section>
+<!-- why-choose-us-section end -->
 
-    <!-- Add your JavaScript files and other scripts here -->
-    <script src="script.js"></script> <!-- Add your JavaScript file link here -->
-</body>
-</html>
+<!-- Video Modal -->
+<div class="modal fade" id="videoModal">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <div class="modal-body">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/WqUaM-ZueXU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
